@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fcn_CRUD_again.props" />
+</Project>

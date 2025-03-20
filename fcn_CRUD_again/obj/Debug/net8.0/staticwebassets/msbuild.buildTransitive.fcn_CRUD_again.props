@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\fcn_CRUD_again.props" />
+</Project>

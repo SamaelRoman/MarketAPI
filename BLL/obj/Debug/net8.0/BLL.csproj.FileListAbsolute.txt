@@ -1,0 +1,15 @@
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\bin\Debug\net8.0\BLL.deps.json
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\bin\Debug\net8.0\BLL.dll
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\bin\Debug\net8.0\BLL.pdb
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\bin\Debug\net8.0\DAL.dll
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\bin\Debug\net8.0\DAL.pdb
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.dll
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\refint\BLL.dll
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\BLL.pdb
+D:\Visula Studio 2022\Repos\fcn_CRUD_again\BLL\obj\Debug\net8.0\ref\BLL.dll
