@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,14 @@ namespace BLL.Entities
         /// Количество продуктов в заказе
         /// </summary>
         public int quantity { get; set; }
+        /// <summary>
+        /// Итоговая сумма к оплате по данному товару
+        /// </summary>
+        public decimal totalPrice { get; set; }
+        /// <summary>
+        /// Валюта в которой производится оплата Должна быть общей для всех товаров в заказе
+        /// </summary>
+        public CurrencyDTO currency { get; set; }
 
     }
 }

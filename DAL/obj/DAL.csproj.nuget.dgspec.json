@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj": {}
+    "D:\\GitRepos\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj": {
+    "D:\\GitRepos\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\GitRepos\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj",
+        "projectPath": "D:\\GitRepos\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\obj\\",
+        "outputPath": "D:\\GitRepos\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,6 +65,14 @@ namespace BLL.Entities
         /// Описание зкаказа (коментарий к зказу)
         /// </summary>
         public string descriptionOfOrder { get; set; }
+        /// <summary>
+        /// Итоговоя цена заказа
+        /// </summary>
+        public decimal totalPrice { get; set; }
+        /// <summary>
+        /// Валюта оплаты заказа
+        /// </summary>
+        public Currency currency { get; set; }
         public OrderDTO()
         {
             

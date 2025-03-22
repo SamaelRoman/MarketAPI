@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sMOt6A7maI8=",
+  "dgSpecHash": "G16G1kP2QXM=",
   "success": true,
-  "projectFilePath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\fcn_CRUD_again\\fcn_CRUD_again.csproj",
+  "projectFilePath": "D:\\GitRepos\\fcn_CRUD_again\\fcn_CRUD_again.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roman\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
