@@ -34,6 +34,7 @@ namespace fcn_CRUD_again.AutoMapper
             CreateMap<Category, CategoryDTO>().ReverseMap();
             CreateMap<ProductContainer, ProductContainerDTO>().ReverseMap();
             CreateMap<Currency, CurrencyDTO>().ReverseMap();
+            CreateMap<OrderProductDTO, OrderProduct>().ReverseMap();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sJqX294nPrk=",
+  "dgSpecHash": "sSB9i0+S5gQ=",
   "success": true,
-  "projectFilePath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\GitRepos\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\roman\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\roman\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

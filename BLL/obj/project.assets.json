@@ -2901,11 +2901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\GitRepos\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\BLL\\BLL.csproj",
+      "projectPath": "D:\\GitRepos\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-      "outputPath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\BLL\\obj\\",
+      "outputPath": "D:\\GitRepos\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2927,8 +2927,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Visula Studio 2022\\Repos\\fcn_CRUD_again\\DAL\\DAL.csproj"
+            "D:\\GitRepos\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\GitRepos\\DAL\\DAL.csproj"
             }
           }
         }
