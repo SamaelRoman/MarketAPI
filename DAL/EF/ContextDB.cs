@@ -25,6 +25,7 @@ namespace DAL.EF
 
         public ContextDB(string connectionString) : base(GetOptions(connectionString))
         {
+            Database.EnsureDeleted();   
             Database.EnsureCreated();
         }
         private static DbContextOptions GetOptions(string ConnectionString)
@@ -34,7 +35,13 @@ namespace DAL.EF
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+
+            modelBuilder.Entity<OrderProduct>()
+                .HasOne(op => op.Order)
+                .WithMany(o => o.orderProducts)
+                .HasForeignKey(op => op.OrderID)
+                .OnDelete(DeleteBehavior.NoAction);
+
             modelBuilder.Entity<Brand>().HasData(
                 new Brand { id = 1, name = "Xiaomi", description = "Xiaomi desc" },
                 new Brand { id = 2, name = "Meizu", description = "Meizu desc" },
@@ -66,6 +73,7 @@ namespace DAL.EF
             modelBuilder.Entity<Product>().HasOne(p => p.Language).WithMany(l => l.products).OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<Order>().HasOne(o => o.OrderStatus).WithMany(s => s.Orders).OnDelete(DeleteBehavior.NoAction);
             modelBuilder.Entity<OrderProduct>().HasOne(o => o.Product).WithMany().OnDelete(DeleteBehavior.NoAction);
+
 
             base.OnModelCreating(modelBuilder);
         }
