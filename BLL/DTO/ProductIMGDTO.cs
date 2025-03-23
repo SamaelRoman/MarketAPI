@@ -15,7 +15,7 @@ namespace BLL.Entities
         /// <summary>
         /// Продукт к которому относится изображение
         /// </summary>
-        public ProductDTO product { get; set; }
+        public Guid productID { get; set; }
         /// <summary>
         /// Название файла изображения
         /// </summary>

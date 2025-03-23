@@ -29,6 +29,10 @@ namespace DAL.Entities
         /// </summary>
         public Product Product { get; set; }
         /// <summary>
+        /// Цена за единицу товара
+        /// </summary>
+        public decimal price { get; set; }
+        /// <summary>
         /// Количество продуктов в заказе
         /// </summary>
         public int quantity { get; set; }
@@ -39,7 +43,8 @@ namespace DAL.Entities
         /// <summary>
         /// Валюта в которой производится оплата Должна быть общей для всех товаров в заказе
         /// </summary>
-        public Currency currency { get; set; }
+        public string currencyName { get; set; }
+
 
     }
 }

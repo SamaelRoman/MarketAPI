@@ -18,27 +18,85 @@ namespace DAL.Repositories
         }
         public void Add(ProductIMG entity)
         {
-            throw new NotImplementedException();
+            if(entity != null)
+            {
+                try
+                {
+                    contextDB.ProductImages.Add(entity);
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+            }
         }
 
         public void Delete(Guid ID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                contextDB.ProductImages.Remove(contextDB.ProductImages.FirstOrDefault(x => x.id == ID));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public void Edit(ProductIMG entity)
         {
-            throw new NotImplementedException();
+            if(entity != null)
+            {
+                try
+                {
+                    contextDB.ProductImages.Update(entity);
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
         }
 
         public ProductIMG Get(Guid ID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return contextDB.ProductImages.FirstOrDefault(pi => pi.id == ID);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public IEnumerable<ProductIMG> Get()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return contextDB.ProductImages.ToList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public IEnumerable<ProductIMG> GetProductIMGsByProductID(Guid productID)
+        {
+            try
+            {
+                return contextDB.ProductImages.Where(pi=>pi.product.id == productID).ToList();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

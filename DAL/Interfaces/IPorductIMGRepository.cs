@@ -9,5 +9,6 @@ namespace DAL.Interfaces
 {
     public interface IPorductIMGRepository : IRepository<ProductIMG,Guid>
     {
+        public IEnumerable<ProductIMG> GetProductIMGsByProductID(Guid productID);
     }
 }

@@ -18,12 +18,23 @@ namespace DAL.Repositories
         }
         public void Add(User entity)
         {
-            throw new NotImplementedException();
+          if(entity != null)
+            {
+                contextDB.Users.Add(entity);
+            }
         }
 
         public void Delete(Guid ID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                contextDB.Users.Remove(contextDB.Users.FirstOrDefault(x => x.id == ID));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         public void Edit(User entity)
@@ -33,12 +44,12 @@ namespace DAL.Repositories
 
         public User Get(Guid ID)
         {
-            throw new NotImplementedException();
+            return contextDB.Users.FirstOrDefault(x => x.id == ID);
         }
 
         public IEnumerable<User> Get()
         {
-            throw new NotImplementedException();
+            return contextDB.Users.ToList();    
         }
     }
 }

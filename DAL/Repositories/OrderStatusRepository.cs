@@ -18,27 +18,57 @@ namespace DAL.Repositories
         }
         public void Add(OrderStatus entity)
         {
-            throw new NotImplementedException();
+            if(entity != null)
+            {
+                try
+                {
+                    contextDB.OrderStatuses.Add(entity);
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
         }
 
         public void Delete(short ID)
         {
-            throw new NotImplementedException();
+            if (ID != 0)
+            {
+                try
+                {
+                    contextDB.OrderStatuses.Remove(contextDB.OrderStatuses.FirstOrDefault(x => x.id == ID));
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
         }
 
         public void Edit(OrderStatus entity)
         {
-            throw new NotImplementedException();
+            if(entity != null)
+            {
+                try
+                {
+                    contextDB.OrderStatuses.Update(entity);
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
         }
 
         public OrderStatus Get(short ID)
         {
-            throw new NotImplementedException();
+            return contextDB.OrderStatuses.FirstOrDefault(x => x.id == ID);
         }
 
         public IEnumerable<OrderStatus> Get()
         {
-            throw new NotImplementedException();
+            return contextDB.OrderStatuses.ToList();
         }
     }
 }
